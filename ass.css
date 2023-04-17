@@ -1,0 +1,879 @@
+*{
+    margin:20px ;
+    padding: 0px;
+}
+body {
+    background: #f7d1d1;
+}
+.sg{
+    background:#d2faeb ;
+}
+.sb{
+    background: #d9f4fc;
+}
+.sy{
+    background:#fdf2d5;
+}
+.image{
+    position: absolute;
+    width: 200px;
+    height: 94.51px;
+    left: 5px;
+    top: -13px;
+
+}
+
+.bp{
+    box-sizing: border-box;
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    top: 11.86%;
+    bottom: 0%;
+    background: #f77962;
+    filter: blur(41.5px);
+    }
+ .lb{
+    box-sizing: border-box;
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    top: 11.86%;
+    bottom: 0%;
+    background: #75d9f5;
+    filter: blur(41.5px);
+ }   
+ .lg {
+    box-sizing: border-box;
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    top: 11.86%;
+    bottom: 0%;
+    background: #7be7c1;
+    filter: blur(41.5px);
+ }
+ .ly{
+    box-sizing: border-box;
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    top: 11.86%;
+    bottom: 0%;
+    background:#fabe86;;
+    filter: blur(41.5px);
+ }
+.black {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 13%;
+    right: 13%;
+    top: 13.86%;
+    bottom: 0%;
+
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 29px;
+}
+.blue {
+    position: absolute;
+    left: 14.91%;
+    right: 14.81%;
+    top: 16.95%;
+    bottom: 2.31%;
+
+    background: #3DB2D3;;
+    filter: blur(20px);
+    border-radius: 29px;
+}
+.green{
+    position: absolute;
+    left: 14.91%;
+    right: 14.81%;
+    top: 16.95%;
+    bottom: 2.31%;
+
+    background: #148341;
+    filter: blur(20px);
+    border-radius: 29px;
+}
+.red{
+    position: absolute;
+    left: 14.91%;
+    right: 14.81%;
+    top: 16.95%;
+    bottom: 2.31%;
+
+    background: #9C1801;
+    filter: blur(20px);
+    border-radius: 29px;
+}
+.yellow{
+    position: absolute;
+    left: 14.91%;
+    right: 14.81%;
+    top: 16.95%;
+    bottom: 2.31%;
+
+    background: #E8AF17;
+    filter: blur(20px);
+    border-radius: 29px;
+}
+.logo{
+    position: absolute;
+    width: 247px;
+    height: 46px;
+    left: 48px;
+    top: 68.01px;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.185em;
+    color: #000000;
+
+}
+.im {
+    position: absolute;
+    height: 120px;
+    width: 100px;
+    left: 60.69%;
+    /*right: 12.46%;*/
+    top: 18.24%;
+    /*bottom: 60.56%;*/
+    filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    height:280px;
+    width:240px;
+    }
+.name{
+    position: absolute;
+    left: 25.72%;
+    right: 53.34%;
+    top: 18.56%;
+    bottom: 59.64%;
+    font-family: 'Pirata One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 82px;
+    color: #DCDCDC;
+} 
+.namelupin{
+    position: absolute;
+    left: 28.72%;
+    right: 53.34%;
+    top: 18.56%;
+    bottom: 59.64%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 82px;
+    color: #DCDCDC;
+}
+.Species{
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 32.52%;
+    bottom: 60.15%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}   
+.Gender{
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 38.96%;
+    bottom: 53.71%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC
+}
+.House{
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 45.41%;
+    bottom: 47.26%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+
+}
+.DOB{
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 51.85%;
+    bottom: 40.82%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.Ancestry{
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 58.3%;
+    bottom: 34.37%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.Eyecolour{
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 64.74%;
+    bottom: 27.93%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+
+}
+.Haircolour{
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 71.19%;
+    bottom: 21.48%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+
+}
+.Wand {
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 77.63%;
+    bottom: 15.04%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+
+}
+.Patronus{
+    position: absolute;
+    left: 22.24%;
+    right: 78.66%;
+    top: 84.08%;
+    bottom: 8.59%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+
+}
+.human {
+    position: absolute;
+    left: 40.73%;
+    right: 59.34%;
+    top: 32.52%;
+    bottom: 60.15%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.male {
+    position: absolute;
+    left: 40.73%;
+    right: 60.89%;
+    top: 38.96%;
+    bottom: 53.71%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.gryffinder{
+    position: absolute;
+    left: 40.73%;
+    right: 55.45%;
+    top: 45.41%;
+    bottom: 47.26%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.d {
+    position: absolute;
+    left: 40.73%;
+    right: 55.45%;
+    top: 51.85%;
+    bottom: 40.82%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.b {
+    position: absolute;
+    left: 40.73%;
+    right: 56.03%;
+    top: 58.3%;
+    bottom: 34.37%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+
+}
+.color{
+    position: absolute;
+    left: 40.73%;
+    right: 59.92%;
+    top: 64.74%;
+    bottom: 27.93%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+
+}
+.colour{
+    position: absolute;
+    left: 40.73%;
+    right: 60.31%;
+    top: 71.19%;
+    bottom: 21.48%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.W{
+    position: absolute;
+    left: 40.73%;
+    right: 45.43%;
+    top: 77.63%;
+    bottom: 15.04%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.stag {
+    position: absolute;
+    left: 40.73%;
+    right: 50.38%;
+    top: 84.08%;
+    bottom: 8.59%;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.lion{
+    position: absolute;
+    left: 43.84%;
+    right: 30.84%;
+    top: 0%;
+    bottom: 90.57%;
+    /*background: url(lion.png);*/
+}
+@media only screen and (max-width:600px){
+    body{
+        width: 100%;
+         height:100vh;
+    }
+    .image{
+        position: absolute;
+        width: 138.66px;
+        height: 45px;
+        left: 16px;
+        top: -20px;
+    }
+    .bp{
+        position: absolute;
+        left: 2.78%;
+        right: 2.78%;
+        top: 12.75%;
+        bottom: 8.5%;
+
+        background: #FFB6A9;
+        filter: blur(41.5px);
+        border-radius: 29px;
+    }
+    .lb{
+        position: absolute;
+        left: 2.78%;
+        right: 2.78%;
+        top: 12.75%;
+        bottom: 8.5%;
+
+        background:#75d9f5;
+        filter: blur(41.5px);
+        border-radius: 29px;
+    }
+    .lg {
+        
+        position: absolute;
+        left: 2.78%;
+        right: 2.78%;
+        top: 12.75%;
+        bottom: 8.5%;
+        background: #7be7c1;
+        filter: blur(41.5px);
+        border-radius: 29px;
+     }
+     .ly{
+        
+        position: absolute;
+        left: 2.78%;
+        right: 2.78%;
+        top: 12.75%;
+        bottom: 8.5%;
+        background:#fabe86;;
+        filter: blur(41.5px);
+        border-radius: 29px;
+     }
+
+    .black{
+        box-sizing: border-box;
+
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 11.04%;
+        bottom: -10%;
+        
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 29px;
+
+    }
+    .red{
+        position: absolute;
+        left: 3.36%;
+        right: 3.36%;
+        top: 17.69%;
+        bottom: -8%;
+
+        background: #9C1801;
+        filter: blur(20px);
+        border-radius: 29px;
+    }
+    .green{
+        position: absolute;
+        left: 3.36%;
+        right: 3.36%;
+        top: 13.67%;
+        bottom: -8%;
+
+        background: #148341;
+        filter: blur(20px);
+        border-radius: 29px;
+    }
+    .blue {
+        position: absolute;
+        left: 3.36%;
+        right: 3.36%;
+        top: 17.69%;
+        bottom: -8%;
+    
+        background: #3DB2D3;;
+        filter: blur(20px);
+        border-radius: 29px;
+    }
+    .yellow{
+        position: absolute;
+        left: 3.36%;
+        right: 3.36%;
+        top: 17.69%;
+        bottom: -8%;
+    
+        background: #E8AF17;
+        filter: blur(20px);
+        border-radius: 29px;
+    }
+    .name{
+        position: absolute;
+        left: 25.79%;
+        right: 30.48%;
+        top: 37.93%;
+        bottom: 54.95%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+
+        color: #DCDCDC;
+    }
+    .namelupin{
+        position: absolute;
+        left: 35.79%;
+        right: 30.48%;
+        top: 37.93%;
+        bottom: 54.95%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+
+        color: #DCDCDC;
+    }
+    .Species{
+        position: absolute;
+        left: 16.51%;
+        right: 67.94%;
+        top: 49.54%;
+        bottom: 47.21%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+
+    }
+    .Gender{
+        position: absolute;
+        left: 16.51%;
+        right: 69.21%;
+        top: 55.11%;
+        bottom: 41.64%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .House{
+                position: absolute;
+        left: 16.51%;
+        right: 71.43%;
+        top: 60.68%;
+        bottom: 36.07%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .DOB{
+        position: absolute;
+        left: 16.51%;
+        right: 76.19%;
+        top: 66.25%;
+        bottom: 30.5%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .Ancestry{
+        position: absolute;
+        left: 16.51%;
+        right: 65.71%;
+        top: 71.83%;
+        bottom: 24.92%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .Eyecolour{
+        position: absolute;
+        left: 16.51%;
+        right: 61.9%;
+        top: 77.4%;
+        bottom: 19.35%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .Haircolour{
+        position: absolute;
+        left: 16.51%;
+        right: 60.95%;
+        top: 82.84%;
+        bottom: 13.91%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+
+    }
+    .Patronus{
+        position: absolute;
+        left: 16.51%;
+        right: 65.71%;
+        top: 88.41%;
+        bottom: 8.35%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+
+    }
+    .Wand{
+        font-size: 0%;
+    }
+    .human{
+        position: absolute;
+        left: 60.61%;
+        right: 26.37%;
+        top: 49.46%;
+        bottom: 47.3%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .male{
+        position: absolute;
+        left: 60.61%;
+        right: 28.59%;
+        top: 55.11%;
+        bottom: 41.64%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .gryffinder{
+        position: absolute;
+        left: 60.61%;
+        right: 16.53%;
+        top: 60.68%;
+        bottom: 36.07%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .b{
+        position: absolute;
+        left: 60.61%;
+        right: 17.8%;
+        top: 71.83%;
+        bottom: 24.92%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .d{
+        position: absolute;
+        left: 60.61%;
+        right: 16.53%;
+        top: 66.15%;
+        bottom: 30.6%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .color{
+        position: absolute;
+        left: 60.61%;
+        right: 26.37%;
+        top: 77.4%;
+        bottom: 19.35%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .colour{
+        position: absolute;
+        left: 60.61%;
+        right: 26.06%;
+        top: 82.84%;
+        bottom: 13.91%;
+
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+
+        color: #DCDCDC;
+    }
+    .stag{
+        position: absolute;
+        position: absolute;
+        left: 60.61%;
+        right: 29.55%;
+        top: 88.54%;
+        bottom: 8.2%;
+        
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        
+        color: #DCDCDC;  
+    }
+    .W{
+        font-size: 0%;
+    }
+    .lion{
+        position: absolute;
+        left: 33.32%;
+        right: 36.19%;
+        top: 2%;
+        bottom: 87.02%;
+        height:105px;
+        width: 90px;
+    }
+    .im{
+        position: absolute;
+        left: 30.65%;
+        right: 33.33%;
+        top: 17.77%;
+        bottom: 64.14%;
+       
+        filter: drop-shadow(4px 4px 30px rgba(0, 0, 0, 0.25));
+        border-radius: 21px;
+        height:130px;
+        width:110px;
+    }
+}
